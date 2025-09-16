@@ -111,6 +111,7 @@ def main():
             )
 
         # Display chat history
+        #----------
         st.markdown("### Conversation History")
         for msg in st.session_state.chat_history:
             if msg["role"] == "user":
